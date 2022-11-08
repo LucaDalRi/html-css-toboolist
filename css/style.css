@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .container{
@@ -36,11 +36,14 @@ body{
 
 .div-centrale1{
     width: 1000px;
+    height: 600px;
     margin: 1px auto;
-    padding: 0 0 0 60px;
+    padding: 0 60px;
     border-radius: 10px;
     background-color: white;
     font-weight: bold;
+    text-align: left;
+    line-height: 40px;
 }
 
 #bottone1{
@@ -66,7 +69,7 @@ body{
 }
 
 h2{
-    padding: 20px 0 5px 0;
+    padding: 20px 0 10px 0;
 }
 
 h2::before{
@@ -76,34 +79,89 @@ h2::before{
 }
 
 .span-editorial{
+    background-color: #5ba0f1;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
 
 }
 
 #span-q1-goals{
-
+    background-color: #9562e3;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
 }
 
 #span-Recruiting{
-
+    background-color: #69b99f;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
 }
 
 #span-mobile{
-
+    background-color: #5ba0f1;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
 }
 
 #span-website{
-
+    background-color: #e59829;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
 }
 
 #span-sales{
+    background-color: #cb5999;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: small;
+}
 
+.check::before{
+    content: "\1F5F8";
+     color: green;
+     border: 2px green solid;
+     width: 18px;
+     padding: 0px;
+     height: 18px;
+     line-height: 15px;
+     border-radius: 50%;
+     align-items: center;
+     text-align: center;
+     display: inline-block;
+     margin-right: 10px;
+
+}
+
+.cross::before{
+     content: "\00D7";
+     color: red;
+     border: 2px red solid;
+     width: 18px;
+     padding: 0px;
+     height: 18px;
+     line-height: 15px;
+     border-radius: 50%;
+     align-items: center;
+     text-align: center;
+     display: inline-block;
+     margin-right: 10px;
 }
 
 .check{
-
-}
-
-.cross{
-
+    
     
 }
+
+   
+
