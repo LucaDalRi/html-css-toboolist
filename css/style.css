@@ -27,12 +27,20 @@ body{
 }
 
 .div-centrale{
-    width: 50%;
-    margin: 80px auto;
-    padding: 20px 0 20px 20px;
-    border: 4px solid black;
+    width: 1000px;
+    margin: 80px auto 0px auto;
+    padding: 20px 0 20px 60px;
     border-radius: 10px;
     background-color: white;
+}
+
+.div-centrale1{
+    width: 1000px;
+    margin: 1px auto;
+    padding: 0 0 0 60px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
 }
 
 #bottone1{
@@ -55,4 +63,47 @@ body{
     text-align: center;
     font-size: 16px;
 
+}
+
+h2{
+    padding: 20px 0 5px 0;
+}
+
+h2::before{
+    content: "\25BC";
+    font-size: 70%;
+
+}
+
+.span-editorial{
+
+}
+
+#span-q1-goals{
+
+}
+
+#span-Recruiting{
+
+}
+
+#span-mobile{
+
+}
+
+#span-website{
+
+}
+
+#span-sales{
+
+}
+
+.check{
+
+}
+
+.cross{
+
+    
 }
